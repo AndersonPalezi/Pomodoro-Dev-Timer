@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(137, 165, 139, 0.653); /* Alterado para branco */
+  font-family: 'Arial', sans-serif; /* Adicionado uma fonte genérica */
+  color: #333; /* Adicionado uma cor de texto padrão */
+  line-height: 1.6; /* Adicionado um espaçamento de linha para melhor legibilidade */
+}
+
+button {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(54, 236, 54);
+  border-radius: 10%;
+  padding: 10px 20px;
+}
+
+.logo-inicio {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 50px;
+}
+
+/* Estilização para o timer mantida */
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(48, 45, 45);
+  height: 250px;
+  width: 250px;
+  border: 3px solid rgb(46, 213, 28);
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 60px;
+  color: rgb(119, 255, 0);
+  margin: 50px auto;
+}
+
+.align-inputs {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.input-container {
+  margin: 20px;
+}
+relogio {
+  display: block;
+  margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+}
+
+/* Estilização para os botões mantida */
+.btn {
+  text-align: center;
+}
+
+.textos {
+  padding: 20px; /* Adicionado algum espaço ao redor do bloco de texto */
+  margin: auto;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 40px; /* Afastar os parágrafos e títulos das bordas inferiores */
+}
+
+/* Estilização adicional para os links no aside */
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #23a623; /* Adicionado um fundo levemente cinza para o aside */
+}
+
+aside a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #333; /* Cor padrão de texto */
+}
+
+aside a:hover {
+  color: #007bff; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilização para o script mantida */
+/* Estilo para centralizar os itens dentro da aside */
+.text-dark {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+}
+/* Estilo adicional para os links */
+
+  img.relogio {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    display: block; /* Remove espaçamento extra abaixo da imagem */
+    margin: auto; /* Centraliza a imagem */
+}
+/* Estilos para ocultar a imagem em telas menores que 700px */
+@media screen and (max-width: 700px) {
+  img.relogio {
+      display: none; /* Oculta a imagem */
+  }
+}
+
+
+
+
